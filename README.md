@@ -1,2 +1,2 @@
-# engeneering-python
-electrical engeneering tools writin in python
+# engineering-python
+A suite of electrical engineering tools, written in Python.
