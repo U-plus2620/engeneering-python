@@ -2,7 +2,7 @@
 A suite of electrical engineering tools, written in Python.
 
 ## Installation
-(`pip` install name will go here)
+(`pip` install command will go here)
 
 ## Usage
 List the tools and describe them.
