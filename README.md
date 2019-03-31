@@ -2,10 +2,13 @@
 A suite of electrical engineering tools, written in Python.
 
 ## Installation
-(`pip` install command will go here)
+Just clone the git repo
 
 ## Usage
-List the tools and describe them.
+ac.py is a tool for making approximate calculations for air condition size
+for a given room
+
+
 
 ## Contributing
 How to get started with local development of this project.
