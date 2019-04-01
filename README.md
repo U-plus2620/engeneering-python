@@ -15,7 +15,7 @@ The arguments for the program are given via the command line.
 The program calculates formula given by dime budensky in his book on power and lighting.
 Please note that all lengths are given in meters.
 the calculation is:
-    (lux*room_size*constant)/(k*Fu*lumens)
+    (lux\*room_size\*constant)/(k\*Fu\*lumens)
 The command line arguments a and b are the two sides of the area resulting in the room_size(in meters!)
 Lux is the necessary lux needed for the given area.
 Lumens are the lumens given off by each fixture.
