@@ -28,7 +28,7 @@ def BTU_per_hr (AREA):
 	btu=int(AREA)*700
 	return btu
 BTU=BTU_per_hr(AREA)
-def TR (BTU):
+def TR (BTU):            #Tons of Refridgeration
 	tr=float(BTU)/12000
 	return tr
 
