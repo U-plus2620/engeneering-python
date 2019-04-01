@@ -17,13 +17,13 @@ Please note that all lengths are given in meters.
 the calculation is:
     (lux\*room_size\*constant)/(k\*Fu\*lumens)
 The command line arguments a and b are the two sides of the area resulting in the room_size(in meters!)
--Lux is the necessary lux needed for the given area.
--Lumens are the lumens given off by each fixture.
--Constant is a mathematical constant.
--k is the dust accumulation coefficient
--k has been given an average value hard coded in the script which you can change if you know the coefficient value.
--Fu is the light reflection coefficient (in percentage).
--Fu has been given an average value hard coded in the script which you can change if you know the reflection value.
+- Lux is the necessary lux needed for the given area.
+- Lumens are the lumens given off by each fixture.
+- Constant is a mathematical constant.
+- k is the dust accumulation coefficient
+- k has been given an average value hard coded in the script which you can change if you know the coefficient value.
+- Fu is the light reflection coefficient (in percentage).
+- Fu has been given an average value hard coded in the script which you can change if you know the reflection value.
 
 ## Contributing
 How to get started with local development of this project.
