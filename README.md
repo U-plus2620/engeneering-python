@@ -20,10 +20,10 @@ The command line arguments a and b are the two sides of the area resulting in th
 - Lux is the necessary lux needed for the given area.
 - Lumens are the lumens given off by each fixture.
 - Constant is a mathematical constant.
-- k is the dust accumulation coefficient
+- k is the Light Loss Factor which is calculated by dust accumalation and  Wear-and-Tear of the fixture, and is close to 0.8 in a less dusty place and 0.6 in a very dusty place.
 - k has been given an average value hard coded in the script which you can change if you know the coefficient value.
-- Fu is the light reflection coefficient (in percentage).
-- Fu has been given an average value hard coded in the script which you can change if you know the reflection value.
+- Fu is the Utilization Factor which is calculated by the reflection of light from the walls, floor and ceiling.
+- Fu has been given an average value hard coded in the script. This value may be found in the lights' spec sheets and then could be changed on the command line.
 
 ## Contributing
 How to get started with local development of this project.
