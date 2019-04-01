@@ -26,8 +26,8 @@ def usage():
 	print("--lux  => is the necessary lux for given area.")
 	print("--area => is the size of the area given in square meters.")
 	print("--lum  => is the lumen's given off by a given light fixture.")
-	print("-k     => is the dust acumalation coefficient (that acumalates on the fixture)\n\tThis value is hard coded to an average value but could optionaly be changed using the -k argument")
-	print("--Fu   => is the coefficient of reflection that is reflected off by the walls")
+	print("-k     => is the dust Light Loss Factor which is between 0.8-0.6 and is a function of dust accumalation and Wear-and-Tear.\n\tThis value is hard coded to an average value but could optionaly be changed using the -k argument")
+	print("--Fu   => is the coefficient of Utilization Factor that is reflected off by the walls, ceiling and floor.\nYou can find this value in the fixtures spec sheets")
 	exit()
 
 def light_calc(lux,area,Fu,k,lum):
